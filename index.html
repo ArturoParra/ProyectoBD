@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="css/carousel.css">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet"> 
+	<title>Cinema 22</title>
+</head>
+<body>
+	<header>
+		<div class="contenedor">
+			<h2 class="logotipo">Cinema22</h2>
+			<nav>
+				<a href="#" class="activo">Inicio</a>
+				<a href="#shorts">Shorts México</a>
+				<a href="#cinema">Cinema 22 Mexicano</a>
+				<a href="#cineteca">Cineteca de Culto</a>
+				<a href="#5estrellas">5 Estrellas</a>
+				<a href="#zonaD">Zona D</a>
+				<a onclick="abrirPopupinf()">Más información</a>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<div class="portada-principal">
+			<div class="contenedor">
+				<h3 class="titulo">La cine mexicano en su máximo esplendor</h3>
+				<p class="descripcion">
+					Vive la magia del cine mexicano. ¡Clásicos que perduran, emociones que trascienden!
+				</p>
+				<button role="button" class="boton"><i class="fa-solid fa-ticket"></i><a href="#shorts">Ver cartelera</a></button>
+				<button role="button" class="boton"><i class="fas fa-info-circle"></i><a onclick="abrirPopupinf()">Más información</a></button>
+			</div>
+		</div>
+<!-- Inicio de carousel 0 -->
+		<div id="shorts" class="hobbies-generales contenedor">
+			<div class="contenedor-titulo-controles">
+				<h3>Shorts México</h3>
+				
+			</div>
+			<div class="contenedor-principal">
+				<button role="button" id="flecha-izquierda" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+				<div class="contenedor-carousel">
+					<div class="carousel">
+						<div class="hobbie">
+							<a><img src="img/posters/shorts.jpg" alt="shortsmx"></a>
+							<div class="overlay"><a id="openPopup" class="sinopsis-link" onclick="abrirPopup()"><i class="fa-solid fa-bars"></i> Sinopsis</a></div>
+						</div>
+						<div class="hobbie">
+							<a><img src="img/posters/shorts.jpg" alt="shortsmx"></a>
+							<div class="overlay"><a id="openPopup" class="sinopsis-link" onclick="abrirPopup()"><i class="fa-solid fa-bars"></i> Sinopsis</a></div>
+						</div>
+						<div class="hobbie">
+							<a><img src="img/posters/shorts.jpg" alt="shortsmx"></a>
+							<div class="overlay"><a id="openPopup" class="sinopsis-link" onclick="abrirPopup()"><i class="fa-solid fa-bars"></i> Sinopsis</a></div>
+						</div>
+						<div class="hobbie">
+							<a><img src="img/posters/shorts.jpg" alt="shortsmx"></a>
+							<div class="overlay"><a id="openPopup" class="sinopsis-link" onclick="abrirPopup()"><i class="fa-solid fa-bars"></i> Sinopsis</a></div>
+						</div>
+						<div class="hobbie">
+							<a><img src="img/posters/shorts.jpg" alt="shortsmx"></a>
+							<div class="overlay"><a id="openPopup" class="sinopsis-link" onclick="abrirPopup()"><i class="fa-solid fa-bars"></i> Sinopsis</a></div>
+						</div>
+						<div class="hobbie">
+							<a><img src="img/posters/shorts.jpg" alt="shortsmx"></a>
+							<div class="overlay"><a id="openPopup" class="sinopsis-link" onclick="abrirPopup()"><i class="fa-solid fa-bars"></i> Sinopsis</a></div>
+						</div>
+						
+						
+					</div>
+				</div>
+
+				<button role="button" id="flecha-derecha" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+			</div>
+		</div>
+<!-- Fin de carousel 0 -->
+
+<!-- Inicio de carousel 1 -->
+		<div id="cinema" class="hobbies-generales contenedor">
+			<div class="contenedor-titulo-controles">
+				<h3>Cinema 22 Mexicano</h3>
+				
+			</div>
+			<div class="contenedor-principal">
+				<button role="button" id="flecha-izquierda1" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+				<div class="contenedor-carousel1">
+					<div class="carousel">
+						<div class="hobbie">
+							<a href=""><img src="img/posters/Cinema22mexicano1.png" alt="cinema22"></a>
+							<div class="overlay"><a id="openPopup" class="sinopsis-link" onclick="abrirPopup()"><i class="fa-solid fa-bars"></i> Sinopsis</a></div>
+						</div>
+						<div class="hobbie">
+							<a href=""><img src="img/posters/Cinema22mexicano2.jpg" alt="cinema22"></a>
+							<div class="overlay"><a id="openPopup" class="sinopsis-link" onclick="abrirPopup()"><i class="fa-solid fa-bars"></i> Sinopsis</a></div>
+						</div>
+						<div class="hobbie">
+							<a href=""><img src="img/posters/Cinema22mexicano3.png" alt="cinema22"></a>
+							<div class="overlay"><a id="openPopup" class="sinopsis-link" onclick="abrirPopup()"><i class="fa-solid fa-bars"></i> Sinopsis</a></div>
+						</div>
+						<div class="hobbie">
+							<a href=""><img src="img/posters/Cinema22mexicano4.jpg" alt="cinema22"></a>
+							<div class="overlay"><a id="openPopup" class="sinopsis-link" onclick="abrirPopup()"><i class="fa-solid fa-bars"></i> Sinopsis</a></div>
+						</div>
+						<div class="hobbie">
+							<a><img src="img/posters/topmexico11.jpg" alt="Hasta el ultimo hombre"></a>
+							<div class="overlay"><a id="openPopup" class="sinopsis-link" onclick="abrirPopup()"><i class="fa-solid fa-bars"></i> Sinopsis</a></div>
+						</div>
+						<div class="hobbie">
+							<a><img src="img/posters/topmexico12.jpg" alt="Hasta el ultimo hombre"></a>
+							<div class="overlay"><a id="openPopup" class="sinopsis-link" onclick="abrirPopup()"><i class="fa-solid fa-bars"></i> Sinopsis</a></div>
+						</div>
+						
+					</div>
+				</div>
+
+				<button role="button" id="flecha-derecha1" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+			</div>
+		</div>
+<!-- Fin de carousel 1 -->
+
+<!-- Inicio de carousel 2 -->
+		<div id="cineteca" class="hobbies-generales contenedor">
+			<div class="contenedor-titulo-controles">
+				<h3>Cineteca de Culto</h3>
+				
+			</div>
+			<div class="contenedor-principal">
+				<button role="button" id="flecha-izquierda2" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+				<div class="contenedor-carousel2">
+					<div class="carousel">
+						<div class="hobbie">
+							<a><img src="img/posters/cinetecadeculto1.jpg" alt="Hasta el ultimo hombre"></a>
+							<div class="overlay"><a id="openPopup" class="sinopsis-link" onclick="abrirPopup()"><i class="fa-solid fa-bars"></i> Sinopsis</a></div>
+						</div>
+						<div class="hobbie">
+							<a><img src="img/posters/cinetecadeculto2.jpg" alt="Hasta el ultimo hombre"></a>
+							<div class="overlay"><a id="openPopup" class="sinopsis-link" onclick="abrirPopup()"><i class="fa-solid fa-bars"></i> Sinopsis</a></div>
+						</div>
+						<div class="hobbie">
+							<a><img src="img/posters/cinetecadeculto3.jpg" alt="Hasta el ultimo hombre"></a>
+							<div class="overlay"><a id="openPopup" class="sinopsis-link" onclick="abrirPopup()"><i class="fa-solid fa-bars"></i> Sinopsis</a></div>
+						</div>
+						<div class="hobbie">
+							<a><img src="img/posters/cinetecadeculto4.jpg" alt="Hasta el ultimo hombre"></a>
+							<div class="overlay"><a id="openPopup" class="sinopsis-link" onclick="abrirPopup()"><i class="fa-solid fa-bars"></i> Sinopsis</a></div>
+						</div>
+						<div class="hobbie">
+							<a><img src="img/posters/topmexico9.jpg" alt="Hasta el ultimo hombre"></a>
+							<div class="overlay"><a id="openPopup" class="sinopsis-link" onclick="abrirPopup()"><i class="fa-solid fa-bars"></i> Sinopsis</a></div>
+						</div>
+						<div class="hobbie">
+							<a><img src="img/posters/topmexico10.jpg" alt="Hasta el ultimo hombre"></a>
+							<div class="overlay"><a id="openPopup" class="sinopsis-link" onclick="abrirPopup()"><i class="fa-solid fa-bars"></i> Sinopsis</a></div>
+						</div>
+						
+					</div>
+				</div>
+
+				<button role="button" id="flecha-derecha2" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+			</div>
+		</div>
+<!-- Fin de carousel 2 -->
+
+<!-- Inicio de carousel 3 -->
+		<div id="5estrellas" class="hobbies-generales contenedor">
+			<div class="contenedor-titulo-controles">
+				<h3>5 Estrellas</h3>
+				
+			</div>
+			<div class="contenedor-principal">
+				<button role="button" id="flecha-izquierda3" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+				<div class="contenedor-carousel3">
+					<div class="carousel">
+						<div class="hobbie">
+							<a><img src="img/posters/5estrellas1.jpg" alt="Hasta el ultimo hombre"></a>
+							<div class="overlay"><a id="openPopup" class="sinopsis-link" onclick="abrirPopup()"><i class="fa-solid fa-bars"></i> Sinopsis</a></div>
+						</div>
+						<div class="hobbie">
+							<a><img src="img/posters/5estrellas2.jpg" alt="Hasta el ultimo hombre"></a>
+							<div class="overlay"><a id="openPopup" class="sinopsis-link" onclick="abrirPopup()"><i class="fa-solid fa-bars"></i> Sinopsis</a></div>
+						</div>
+						<div class="hobbie">
+							<a><img src="img/posters/5estrellas3.jpg" alt="Hasta el ultimo hombre"></a>
+							<div class="overlay"><a id="openPopup" class="sinopsis-link" onclick="abrirPopup()"><i class="fa-solid fa-bars"></i> Sinopsis</a></div>
+						</div>
+						<div class="hobbie">
+							<a><img src="img/posters/topmexico6.jpg" alt="Hasta el ultimo hombre"></a>
+							<div class="overlay"><a id="openPopup" class="sinopsis-link" onclick="abrirPopup()"><i class="fa-solid fa-bars"></i> Sinopsis</a></div>
+						</div>
+						<div class="hobbie">
+							<a><img src="img/posters/topmexico7.jpg" alt="Hasta el ultimo hombre"></a>
+							<div class="overlay"><a id="openPopup" class="sinopsis-link" onclick="abrirPopup()"><i class="fa-solid fa-bars"></i> Sinopsis</a></div>
+						</div>
+						<div class="hobbie">
+							<a><img src="img/posters/topmexico8.jpg" alt="Hasta el ultimo hombre"></a>
+							<div class="overlay"><a id="openPopup" class="sinopsis-link" onclick="abrirPopup()"><i class="fa-solid fa-bars"></i> Sinopsis</a></div>
+						</div>
+						
+					</div>
+				</div>
+
+				<button role="button" id="flecha-derecha3" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+			</div>
+		</div>
+<!-- Fin de carousel 3 -->
+
+<!-- Inicio de carousel 4 -->
+		<div id="zonaD" class="hobbies-generales contenedor">
+			<div class="contenedor-titulo-controles">
+				<h3>Zona D</h3>
+				
+			</div>
+			<div class="contenedor-principal">
+				<button role="button" id="flecha-izquierda4" class="flecha-izquierda"><i class="fas fa-angle-left"></i></button>
+
+				<div class="contenedor-carousel4">
+					<div class="carousel">
+						<div class="hobbie">
+							<a><img src="img/posters/zonad.jpg" alt="Hasta el ultimo hombre"></a>
+							<div class="overlay"><a id="openPopup" class="sinopsis-link" onclick="abrirPopup()"><i class="fa-solid fa-bars"></i> Sinopsis</a></div>
+						</div>
+						<div class="hobbie">
+							<a><img src="img/posters/topmexico1.jpg" alt="Hasta el ultimo hombre"></a>
+							<div class="overlay"><a id="openPopup" class="sinopsis-link" onclick="abrirPopup()"><i class="fa-solid fa-bars"></i> Sinopsis</a></div>
+						</div>
+						<div class="hobbie">
+							<a><img src="img/posters/topmexico2.jpg" alt="Hasta el ultimo hombre"></a>
+							<div class="overlay"><a id="openPopup" class="sinopsis-link" onclick="abrirPopup()"><i class="fa-solid fa-bars"></i> Sinopsis</a></div>
+						</div>
+						<div class="hobbie">
+							<a><img src="img/posters/topmexico3.jpg" alt="Hasta el ultimo hombre"></a>
+							<div class="overlay"><a id="openPopup" class="sinopsis-link" onclick="abrirPopup()"><i class="fa-solid fa-bars"></i> Sinopsis</a></div>
+						</div>
+						<div class="hobbie">
+							<a><img src="img/posters/topmexico4.jpg" alt="Hasta el ultimo hombre"></a>
+							<div class="overlay"><a id="openPopup" class="sinopsis-link" onclick="abrirPopup()"><i class="fa-solid fa-bars"></i> Sinopsis</a></div>
+						</div>
+						<div class="hobbie">
+							<a><img src="img/posters/topmexico5.jpg" alt="Hasta el ultimo hombre"></a>
+							<div class="overlay"><a id="openPopup" class="sinopsis-link" onclick="abrirPopup()"><i class="fa-solid fa-bars"></i> Sinopsis</a></div>
+						</div>
+						
+					</div>
+				</div>
+
+				<button role="button" id="flecha-derecha4" class="flecha-derecha"><i class="fas fa-angle-right"></i></button>
+			</div>
+		</div>
+<!-- Fin de carousel 4 -->
+
+		<div class="popup" id="popup-1">
+			<div class="popup-overlay"></div>
+			<div class="popup-content">
+				<div class="close-btn" onclick="abrirPopup()">&times;</div>
+					<h1>titulo</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin semper, tortor porttitor scelerisque lobortis, augue risus volutpat lectus, id congue est augue vel eros.</p>
+			</div>
+		</div>
+
+		<div class="popup" id="popup-info">
+			<div class="popup-overlay"></div>
+			<div class="popup-content">
+				<div class="close-btn" onclick="abrirPopupinf()">&times;</div>
+					<h1>titulo</h1>
+					<p>info</p>
+			</div>
+		</div>
+
+	</main>
+	
+	<script src="https://kit.fontawesome.com/e56bf2749a.js" crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

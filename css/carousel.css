@@ -1,0 +1,120 @@
+/* ---- ----- ----- Carousel 1 ----- ----- ----- */
+
+.hobbies-generales .contenedor-carousel1{
+	width: 100%;
+	padding: 20px 0;
+	overflow: hidden;
+	scroll-behavior: smooth;
+}
+
+.hobbies-generales .contenedor-carousel1 .carousel{
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.hobbies-generales .contenedor-carousel1 .carousel .hobbie{
+	min-width: 25%;
+	transition: .3s ease all;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.hobbies-generales .contenedor-carousel1 .carousel .hobbie:hover{
+	transform: scale(1.2);
+	transform-origin: center;
+}
+
+.hobbies-generales .contenedor-carousel1 .carousel .hobbie img{
+	width: 100%;
+	vertical-align: top;
+}
+
+
+/* ---- ----- ----- Carousel 2 ----- ----- ----- */
+
+.hobbies-generales .contenedor-carousel2{
+	width: 100%;
+	padding: 20px 0;
+	overflow: hidden;
+	scroll-behavior: smooth;
+}
+
+.hobbies-generales .contenedor-carousel2 .carousel{
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.hobbies-generales .contenedor-carousel2 .carousel .hobbie{
+	min-width: 25%;
+	transition: .3s ease all;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.hobbies-generales .contenedor-carousel2 .carousel .hobbie:hover{
+	transform: scale(1.2);
+	transform-origin: center;
+}
+
+.hobbies-generales .contenedor-carousel2 .carousel .hobbie img{
+	width: 100%;
+	vertical-align: top;
+}
+
+/* ---- ----- ----- Carousel 3 ----- ----- ----- */
+
+.hobbies-generales .contenedor-carousel3{
+	width: 100%;
+	padding: 20px 0;
+	overflow: hidden;
+	scroll-behavior: smooth;
+}
+
+.hobbies-generales .contenedor-carousel3 .carousel{
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.hobbies-generales .contenedor-carousel3 .carousel .hobbie{
+	min-width: 25%;
+	transition: .3s ease all;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.hobbies-generales .contenedor-carousel3 .carousel .hobbie:hover{
+	transform: scale(1.2);
+	transform-origin: center;
+}
+
+.hobbies-generales .contenedor-carousel3 .carousel .hobbie img{
+	width: 100%;
+	vertical-align: top;
+}
+
+/* ---- ----- ----- Carousel 4 ----- ----- ----- */
+
+.hobbies-generales .contenedor-carousel4{
+	width: 100%;
+	padding: 20px 0;
+	overflow: hidden;
+	scroll-behavior: smooth;
+}
+
+.hobbies-generales .contenedor-carousel4 .carousel{
+	display: flex;
+	flex-wrap: nowrap;
+}
+
+.hobbies-generales .contenedor-carousel4 .carousel .hobbie{
+	min-width: 25%;
+	transition: .3s ease all;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.hobbies-generales .contenedor-carousel4 .carousel .hobbie:hover{
+	transform: scale(1.2);
+	transform-origin: center;
+}
+
+.hobbies-generales .contenedor-carousel4 .carousel .hobbie img{
+	width: 100%;
+	vertical-align: top;
+}
